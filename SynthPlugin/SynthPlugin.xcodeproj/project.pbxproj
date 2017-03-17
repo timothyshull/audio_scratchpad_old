@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		365788F81D98AB2B009F1923 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365788F71D98AB2B009F1923 /* AudioUnit.framework */; };
+		365788FA1D98AB30009F1923 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365788F91D98AB30009F1923 /* AudioToolbox.framework */; };
+		365788FC1D98AB38009F1923 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365788FB1D98AB38009F1923 /* CoreServices.framework */; };
+		365788FF1D98AC07009F1923 /* SynthPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 365788FD1D98AC07009F1923 /* SynthPlugin.cpp */; };
+		365789041D98ACF6009F1923 /* AUBase in Resources */ = {isa = PBXBuildFile; fileRef = 365789031D98ACF6009F1923 /* AUBase */; };
+		365789061D98ACFF009F1923 /* AUInstrumentBase in Resources */ = {isa = PBXBuildFile; fileRef = 365789051D98ACFF009F1923 /* AUInstrumentBase */; };
+		365789081D98AD0A009F1923 /* OtherBases in Resources */ = {isa = PBXBuildFile; fileRef = 365789071D98AD0A009F1923 /* OtherBases */; };
+		3657890A1D98AD11009F1923 /* Utility in Resources */ = {isa = PBXBuildFile; fileRef = 365789091D98AD11009F1923 /* Utility */; };
+		3657890C1D98AD25009F1923 /* PublicUtility in Resources */ = {isa = PBXBuildFile; fileRef = 3657890B1D98AD25009F1923 /* PublicUtility */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		365788ED1D98A8FA009F1923 /* SynthPlugin.component */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SynthPlugin.component; sourceTree = BUILT_PRODUCTS_DIR; };
+		365788F01D98A8FA009F1923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		365788F71D98AB2B009F1923 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		365788F91D98AB30009F1923 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		365788FB1D98AB38009F1923 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		365788FD1D98AC07009F1923 /* SynthPlugin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SynthPlugin.cpp; sourceTree = "<group>"; };
+		365788FE1D98AC07009F1923 /* SynthPlugin.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SynthPlugin.hpp; sourceTree = "<group>"; };
+		365789001D98AC23009F1923 /* SynthPlugin.exp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.exports; path = SynthPlugin.exp; sourceTree = "<group>"; };
+		365789011D98AC4A009F1923 /* SynthPlugin.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; path = SynthPlugin.r; sourceTree = "<group>"; };
+		365789031D98ACF6009F1923 /* AUBase */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AUBase; sourceTree = "<group>"; };
+		365789051D98ACFF009F1923 /* AUInstrumentBase */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AUInstrumentBase; sourceTree = "<group>"; };
+		365789071D98AD0A009F1923 /* OtherBases */ = {isa = PBXFileReference; lastKnownFileType = folder; path = OtherBases; sourceTree = "<group>"; };
+		365789091D98AD11009F1923 /* Utility */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Utility; sourceTree = "<group>"; };
+		3657890B1D98AD25009F1923 /* PublicUtility */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PublicUtility; sourceTree = "<group>"; };
+		3657890D1D98AE14009F1923 /* prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		365788EA1D98A8FA009F1923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365788FC1D98AB38009F1923 /* CoreServices.framework in Frameworks */,
+				365788FA1D98AB30009F1923 /* AudioToolbox.framework in Frameworks */,
+				365788F81D98AB2B009F1923 /* AudioUnit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		365788E41D98A8FA009F1923 = {
+			isa = PBXGroup;
+			children = (
+				365788EF1D98A8FA009F1923 /* SynthPlugin */,
+				365788EE1D98A8FA009F1923 /* Products */,
+				365788F61D98AB2B009F1923 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		365788EE1D98A8FA009F1923 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				365788ED1D98A8FA009F1923 /* SynthPlugin.component */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		365788EF1D98A8FA009F1923 /* SynthPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				3657890B1D98AD25009F1923 /* PublicUtility */,
+				365789091D98AD11009F1923 /* Utility */,
+				365789071D98AD0A009F1923 /* OtherBases */,
+				365789051D98ACFF009F1923 /* AUInstrumentBase */,
+				365789031D98ACF6009F1923 /* AUBase */,
+				365788F01D98A8FA009F1923 /* Info.plist */,
+				365788FD1D98AC07009F1923 /* SynthPlugin.cpp */,
+				365788FE1D98AC07009F1923 /* SynthPlugin.hpp */,
+				3657890D1D98AE14009F1923 /* prefix.pch */,
+				365789011D98AC4A009F1923 /* SynthPlugin.r */,
+				365789001D98AC23009F1923 /* SynthPlugin.exp */,
+			);
+			path = SynthPlugin;
+			sourceTree = "<group>";
+		};
+		365788F61D98AB2B009F1923 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				365788FB1D98AB38009F1923 /* CoreServices.framework */,
+				365788F91D98AB30009F1923 /* AudioToolbox.framework */,
+				365788F71D98AB2B009F1923 /* AudioUnit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		365788EC1D98A8FA009F1923 /* SynthPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 365788F31D98A8FA009F1923 /* Build configuration list for PBXNativeTarget "SynthPlugin" */;
+			buildPhases = (
+				365788E91D98A8FA009F1923 /* Sources */,
+				365789021D98AC57009F1923 /* Rez */,
+				365788EA1D98A8FA009F1923 /* Frameworks */,
+				365788EB1D98A8FA009F1923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SynthPlugin;
+			productName = SynthPlugin;
+			productReference = 365788ED1D98A8FA009F1923 /* SynthPlugin.component */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		365788E51D98A8FA009F1923 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Tim Shull";
+				TargetAttributes = {
+					365788EC1D98A8FA009F1923 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 365788E81D98A8FA009F1923 /* Build configuration list for PBXProject "SynthPlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 365788E41D98A8FA009F1923;
+			productRefGroup = 365788EE1D98A8FA009F1923 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				365788EC1D98A8FA009F1923 /* SynthPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		365788EB1D98A8FA009F1923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365789081D98AD0A009F1923 /* OtherBases in Resources */,
+				365789061D98ACFF009F1923 /* AUInstrumentBase in Resources */,
+				365789041D98ACF6009F1923 /* AUBase in Resources */,
+				3657890C1D98AD25009F1923 /* PublicUtility in Resources */,
+				3657890A1D98AD11009F1923 /* Utility in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		365789021D98AC57009F1923 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		365788E91D98A8FA009F1923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365788FF1D98AC07009F1923 /* SynthPlugin.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		365788F11D98A8FA009F1923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		365788F21D98A8FA009F1923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		365788F41D98A8FA009F1923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXPORTED_SYMBOLS_FILE = "$(SRCROOT)/$(PROJECT_NAME)/AU.exp";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = SynthPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = "-bundle";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tshull.SynthPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REZ_SEARCH_PATHS = (
+					/Users/skull/Programming/Downloads/CoreAudioUtilityClasses/CoreAudio/AudioUnits/AUPublic/AUBase,
+					/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers,
+				);
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = component;
+			};
+			name = Debug;
+		};
+		365788F51D98A8FA009F1923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXPORTED_SYMBOLS_FILE = "$(SRCROOT)/$(PROJECT_NAME)/AU.exp";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = SynthPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = "-bundle";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tshull.SynthPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REZ_SEARCH_PATHS = (
+					/Users/skull/Programming/Downloads/CoreAudioUtilityClasses/CoreAudio/AudioUnits/AUPublic/AUBase,
+					/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers,
+				);
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = component;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		365788E81D98A8FA009F1923 /* Build configuration list for PBXProject "SynthPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				365788F11D98A8FA009F1923 /* Debug */,
+				365788F21D98A8FA009F1923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		365788F31D98A8FA009F1923 /* Build configuration list for PBXNativeTarget "SynthPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				365788F41D98A8FA009F1923 /* Debug */,
+				365788F51D98A8FA009F1923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 365788E51D98A8FA009F1923 /* Project object */;
+}

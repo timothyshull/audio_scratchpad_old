@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<vstgui-ui-description version="1">
+	<fonts>
+		<font bold="true" font-name="Microsoft Sans Serif" name="Microsoft Sans Serif" size="18" />
+	</fonts>
+	<colors />
+	<template background-color="~ GreyCColor" background-color-draw-style="filled and stroked" bitmap="" class="CViewContainer" maxSize="960, 645" minSize="960, 645" mouse-enabled="true" name="Editor" origin="0, 0" size="960, 645" transparent="false">
+	</template>
+	<custom>
+		<attributes RAFXPath="C:\RackAFX.uidesc" name="VST3Editor" />
+		<attributes name="FocusDrawing" />
+		<attributes KnobAction="2" />
+		<attributes name="UIGridController" />
+		<attributes SelectedTemplate="Editor" name="UITemplateController" />
+		<attributes name="UIAttributesController" />
+		<attributes EditorSize="0, 0, 1236, 768" SplitViewSize_0_0="0.693135935397038990000" SplitViewSize_0_1="0.293405114401076690000" SplitViewSize_1_0="0.479138627187079390000" SplitViewSize_1_1="0.50740242261103630000" SplitViewSize_2_0="0.63187702265372170000" SplitViewSize_2_1="0.360032362459546950000" TabSwitchValue="1" name="UIEditController" />
+		<attributes SelectedRow="-1" name="UIViewCreatorDataSource" />
+		<attributes SelectedRow="-1" name="UITagsDataSource" />
+	</custom>
+	<bitmaps>
+		<bitmap name="darkgreyvinyl" nineparttiled-offsets="0, 0, 0, 0" path="darkgreyvinyl.png" rafxtype="backgnd" />
+		<bitmap name="bluemetal" nineparttiled-offsets="0, 0, 0, 0" path="bluemetal.png" rafxtype="backgnd" />
+		<bitmap name="greenmetal" nineparttiled-offsets="0, 0, 0, 0" path="greenmetal.png" rafxtype="backgnd" />
+		<bitmap name="greymetal" nineparttiled-offsets="0, 0, 0, 0" path="greymetal.png" rafxtype="backgnd" />
+		<bitmap name="lightgreymetal" nineparttiled-offsets="0, 0, 0, 0" path="lightgreymetal.png" rafxtype="backgnd" />
+		<bitmap name="yellowmetal" nineparttiled-offsets="0, 0, 0, 0" path="yellowmetal.png" rafxtype="backgnd" />
+		<bitmap name="background" nineparttiled-offsets="150, 160, 150, 160" path="background.png" rafxtype="backgnd" />
+		<bitmap name="groupframe" nineparttiled-offsets="25, 25, 25, 25" path="groupframe.png" rafxtype="groupframe" />
+		<bitmap name="knob" path="knob.png" rafxtype="knob" />
+		<bitmap name="blackgearknob" path="blackgearknob.png" rafxtype="knob" />
+		<bitmap name="blueableton" path="blueableton.png" rafxtype="knob" />
+		<bitmap name="chickenhead" path="chickenhead.png" rafxtype="knob" />
+		<bitmap name="fxknob" path="fxknob.png" rafxtype="knob" />
+		<bitmap name="greenableton" path="greenableton.png" rafxtype="knob" />
+		<bitmap name="greyableton" path="greyableton.png" rafxtype="knob" />
+		<bitmap name="knob303" path="knob303.png" rafxtype="knob" />
+		<bitmap name="knobm400" path="knobm400.png" rafxtype="knob" />
+		<bitmap name="minibrute" path="minibrute.png" rafxtype="knob" />
+		<bitmap name="sslblue" path="sslblue.png" rafxtype="knob" />
+		<bitmap name="sslgreen" path="sslgreen.png" rafxtype="knob" />
+		<bitmap name="sslred" path="sslred.png" rafxtype="knob" />
+		<bitmap name="alphablackgearknob1" path="alphablackgearknob1.png" rafxtype="alphaknob270" />
+		<bitmap name="alphablackgearknob2" path="alphablackgearknob2.png" rafxtype="userimage" />
+		<bitmap name="alphachickenhead" path="alphachickenhead.png" rafxtype="alphaknob270" />
+		<bitmap name="alphafxknob" path="alphafxknob.png" rafxtype="alphaknob270" />
+		<bitmap name="alphagreenableton" path="alphagreenableton.png" rafxtype="alphaknob270" />
+		<bitmap name="alphaknob303" path="alphaknob303.png" rafxtype="alphaknob270" />
+		<bitmap name="alpham400" path="alpham400.png" rafxtype="alphaknob270" />
+		<bitmap name="alphaminibrute" path="alphaminibrute.png" rafxtype="alphaknob270" />
+		<bitmap name="alphasslblue" path="alphasslblue.png" rafxtype="alphaknob270" />
+		<bitmap name="alphasslgreen" path="alphasslgreen.png" rafxtype="alphaknob270" />
+		<bitmap name="alphasslred" path="alphasslred.png" rafxtype="alphaknob270" />
+		<bitmap name="amberonoff" path="amberonoff.png" rafxtype="onoffbtn" />
+		<bitmap name="twossamber" path="twossamber.png" rafxtype="onoffbtn" />
+		<bitmap name="twossgreen" path="twossgreen.png" rafxtype="onoffbtn" />
+		<bitmap name="assignbamber" path="assignbamber.png" rafxtype="assignbtn" />
+		<bitmap name="rbstripamber2" path="rbstripamber2.png" rafxtype="radiobtn" />
+		<bitmap name="rbstripamber3" path="rbstripamber3.png" rafxtype="radiobtn" />
+		<bitmap name="rbstripamber4" path="rbstripamber4.png" rafxtype="radiobtn" />
+		<bitmap name="rbstripamber5" path="rbstripamber5.png" rafxtype="radiobtn" />
+		<bitmap name="rbstripamber6" path="rbstripamber6.png" rafxtype="radiobtn" />
+		<bitmap name="rbstripamber7" path="rbstripamber7.png" rafxtype="radiobtn" />
+		<bitmap name="rbstripamber8" path="rbstripamber8.png" rafxtype="radiobtn" />
+		<bitmap name="rbstripgreen2" path="rbstripgreen2.png" rafxtype="radiobtn" />
+		<bitmap name="rbstripgreen3" path="rbstripgreen3.png" rafxtype="radiobtn" />
+		<bitmap name="rbstripgreen4" path="rbstripgreen4.png" rafxtype="radiobtn" />
+		<bitmap name="rbstripgreen5" path="rbstripgreen5.png" rafxtype="radiobtn" />
+		<bitmap name="rbstripgreen6" path="rbstripgreen6.png" rafxtype="radiobtn" />
+		<bitmap name="rbstripgreen7" path="rbstripgreen7.png" rafxtype="radiobtn" />
+		<bitmap name="rbstripgreen8" path="rbstripgreen8.png" rafxtype="radiobtn" />
+		<bitmap name="rbstripsilverbutton2" path="rbstripsilverbutton2.png" rafxtype="radiobtn" />
+		<bitmap name="rbstripsilverbutton3" path="rbstripsilverbutton3.png" rafxtype="radiobtn" />
+		<bitmap name="rbstripsilverbutton4" path="rbstripsilverbutton4.png" rafxtype="radiobtn" />
+		<bitmap name="rbstripsilverbutton5" path="rbstripsilverbutton5.png" rafxtype="radiobtn" />
+		<bitmap name="rbstripsilverbutton6" path="rbstripsilverbutton6.png" rafxtype="radiobtn" />
+		<bitmap name="rbstripsilverbutton7" path="rbstripsilverbutton7.png" rafxtype="radiobtn" />
+		<bitmap name="rbstripsilverbutton8" path="rbstripsilverbutton8.png" rafxtype="radiobtn" />
+		<bitmap name="vsbackground" path="vsbackground.png" rafxtype="vsliderback" />
+		<bitmap name="hsbackground" path="hsbackground.png" rafxtype="hsliderback" />
+		<bitmap name="hsbackS700" path="hsbackS700.png" rafxtype="hsliderback" />
+		<bitmap name="vsbackgroundtwo" path="vsbackgroundtwo.png" rafxtype="vsliderback" />
+		<bitmap name="vshandle" path="vshandle.png" rafxtype="vsliderhand" />
+		<bitmap name="hshandS700" path="hshandS700.png" rafxtype="hsliderhand" />
+		<bitmap name="hshandle" path="hshandle.png" rafxtype="hsliderhand" />
+		<bitmap name="vuledoff" path="vuledoff.png" rafxtype="vuoff" />
+		<bitmap name="vuledon" path="vuledon.png" rafxtype="vuon" />
+		<bitmap name="vuledoffinv" path="vuledoffinv.png" rafxtype="vuoffinv" />
+		<bitmap name="vuledoninv" path="vuledoninv.png" rafxtype="vuoninv" />
+		<bitmap name="vsbackshort56" path="vsbackshort56.png" rafxtype="vsliderback" />
+		<bitmap name="vshandsmall56" path="vshandsmall56.png" rafxtype="vsliderhand" />
+		<bitmap name="hsbackshort56" path="hsbackshort56.png" rafxtype="hsliderback" />
+		<bitmap name="hshandsmall56" path="hshandsmall56.png" rafxtype="hsliderhand" />
+		<bitmap name="alphaampknob" path="alphaampknob.png" rafxtype="alphaknob270" />
+		<bitmap name="alphachickenhead2" path="alphachickenhead2.png" rafxtype="alphaknob270" />
+		<bitmap name="alphachickenhead3" path="alphachickenhead3.png" rafxtype="alphaknob270" />
+		<bitmap name="alphamaschine" path="alphamaschine.png" rafxtype="alphaknob270" />
+		<bitmap name="alphaorangeamp" path="alphaorangeamp.png" rafxtype="alphaknob270" />
+		<bitmap name="alphasslblue2" path="alphasslblue2.png" rafxtype="alphaknob270" />
+		<bitmap name="alphasslgreen2" path="alphasslgreen2.png" rafxtype="alphaknob270" />
+		<bitmap name="alphasslred2" path="alphasslred2.png" rafxtype="alphaknob270" />
+		<bitmap name="alphasslyellow" path="alphasslyellow.png" rafxtype="alphaknob270" />
+		<bitmap name="alphawhitedust" path="alphawhitedust.png" rafxtype="alphaknob270" />
+		<bitmap name="ampknob" path="ampknob.png" rafxtype="knob" />
+		<bitmap name="bigampknob" path="bigampknob.png" rafxtype="otherknob" />
+		<bitmap name="bigoberheimbutton" path="bigoberheimbutton.png" rafxtype="onoffbtn" />
+		<bitmap name="bigpowerswitch" path="bigpowerswitch.png" rafxtype="onoffbtn" />
+		<bitmap name="bigprohphetbutton" path="bigprohphetbutton.png" rafxtype="onoffbtn" />
+		<bitmap name="bigrubberbutton" path="bigrubberbutton.png" rafxtype="onoffbtn" />
+		<bitmap name="bigtoggleswitch" path="bigtoggleswitch.png" rafxtype="onoffbtn" />
+		<bitmap name="chickenhead2" path="chickenhead2.png" rafxtype="knob" />
+		<bitmap name="chickenhead3" path="chickenhead3.png" rafxtype="knob" />
+		<bitmap name="giantampknob" path="giantampknob.png" rafxtype="otherknob" />
+		<bitmap name="maschine" path="maschine.png" rafxtype="knob" />
+		<bitmap name="medoberheimbutton" path="medoberheimbutton.png" rafxtype="onoffbtn" />
+		<bitmap name="medpowerswitch" path="medpowerswitch.png" rafxtype="onoffbtn" />
+		<bitmap name="medprophetbutton" path="medprophetbutton.png" rafxtype="onoffbtn" />
+		<bitmap name="medrubberbutton" path="medrubberbutton.png" rafxtype="onoffbtn" />
+		<bitmap name="medtoggleswitch" path="medtoggleswitch.png" rafxtype="onoffbtn" />
+		<bitmap name="microoberheimbutton" path="microoberheimbutton.png" rafxtype="onoffbtn" />
+		<bitmap name="microtoggleswitch" path="microtoggleswitch.png" rafxtype="onoffbtn" />
+		<bitmap name="orangeamp" path="orangeamp.png" rafxtype="knob" />
+		<bitmap name="smalloberheimbutton" path="smalloberheimbutton.png" rafxtype="onoffbtn" />
+		<bitmap name="smallpowerswitch" path="smallpowerswitch.png" rafxtype="onoffbtn" />
+		<bitmap name="smallprohetbutton" path="smallprohetbutton.png" rafxtype="onoffbtn" />
+		<bitmap name="smallrubberbutton" path="smallrubberbutton.png" rafxtype="onoffbtn" />
+		<bitmap name="smalltoggleswitch" path="smalltoggleswitch.png" rafxtype="onoffbtn" />
+		<bitmap name="tinytoggleswitch" path="tinytoggleswitch.png" rafxtype="onoffbtn" />
+		<bitmap name="sslblue2" path="sslblue2.png" rafxtype="knob" />
+		<bitmap name="sslgreen2" path="sslgreen2.png" rafxtype="knob" />
+		<bitmap name="sslyellow" path="sslyellow.png" rafxtype="knob" />
+		<bitmap name="sslyellow2" path="sslyellow2.png" rafxtype="knob" />
+		<bitmap name="whitedust" path="whitedust.png" rafxtype="knob" />
+		<bitmap name="whitedust" path="whitedust.png" rafxtype="knob" />
+		<bitmap name="prophet" path="prophet.png" rafxtype="knob" />
+		<bitmap name="alphaprophet" path="alphaprophet.png" rafxtype="knob" />
+		<bitmap name="giantprophet" path="giantprophet.png" rafxtype="knob" />
+		<bitmap name="smallprophet" path="smallprophet.png" rafxtype="knob" />
+		<bitmap name="tinyprophet" path="tinyprophet.png" rafxtype="knob" />
+		<bitmap name="blackplastic" path="blackplastic.png" rafxtype="knob" />
+		<bitmap name="alphablackplastic" path="alphablackplastic.png" rafxtype="knob" />
+		<bitmap name="giantblackplastic" path="giantblackplastic.png" rafxtype="knob" />
+		<bitmap name="smallblackplastic" path="smallblackplastic.png" rafxtype="knob" />
+		<bitmap name="analogvumeter" path="analogvumeter.png" rafxtype="analogvu" />
+		<bitmap name="smallanalogvumeter" path="smallanalogvumeter.png" rafxtype="analogvu" />
+		<bitmap name="biganalogvumeter" path="biganalogvumeter.png" rafxtype="analogvu" />
+		<bitmap name="medanalogvumeter" path="medanalogvumeter.png" rafxtype="analogvu" />
+	</bitmaps>
+	<control-tags>
+	</control-tags>
+</vstgui-ui-description>

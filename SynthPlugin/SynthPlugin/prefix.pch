@@ -1,0 +1,33 @@
+//
+//  prefix.pch
+//  SynthPlugin
+//
+//  Created by Tim Shull on 9/25/16.
+//  Copyright © 2016 Tim Shull. All rights reserved.
+//
+
+#ifndef prefix_pch
+#define prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* prefix_pch */
+
+
+
+
+#if !defined(__COREAUDIO_USE_FLAT_INCLUDES__)
+#include <CoreAudio/CoreAudioTypes.h>
+#include <CoreFoundation/CoreFoundation.h>
+#else
+#include <CoreAudioTypes.h>
+#include <CoreFoundation.h>
+#endif
+
+#include <CoreServices/CoreServices.h>
+#include <CoreAudio/CoreAudio.h>
+#include <AudioUnit/AudioUnit.h>
+
+
+#include <AudioToolbox/AudioToolbox.h>

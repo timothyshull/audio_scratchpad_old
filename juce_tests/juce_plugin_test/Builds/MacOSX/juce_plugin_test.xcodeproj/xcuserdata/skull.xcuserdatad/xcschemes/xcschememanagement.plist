@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>juce_plugin_test (AAX).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>juce_plugin_test (AU).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>juce_plugin_test (AUv3 AppExtension).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>juce_plugin_test (AUv3 Standalone).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>juce_plugin_test (All).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>juce_plugin_test (Shared Code).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>juce_plugin_test (VST).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>juce_plugin_test (VST3).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1E26902863015B4082B04624</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>284BA1781EF50041667DF5D7</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>3F89E6838029803BA71E25E4</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>93A799CAFF692B41A0F89625</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>C3BD5C8B7BB900E12438D338</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>DC3433D003762CE2069832F4</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>E4CCCA59B847966832FD4B25</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>E9FD2AEC084DD6254AB6BE9B</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+	</dict>
+</dict>
+</plist>

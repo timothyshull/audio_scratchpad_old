@@ -1,0 +1,8 @@
+#  SynthPlugin.exp
+#  SynthPlugin
+#
+#  Created by Tim Shull on 9/25/16.
+#  Copyright © 2016 Tim Shull. All rights reserved.
+
+_SynthPluginFactory
+_SynthPluginEntry

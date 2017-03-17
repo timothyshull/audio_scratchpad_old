@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "686F73BC5574C6F74E673939"
+               BuildableName = "ca_8_AUGraphInput_s"
+               BlueprintName = "ca_8_AUGraphInput_s"
+               ReferencedContainer = "container:ca_8_AUGraphInput_s.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "686F73BC5574C6F74E673939"
+            BuildableName = "ca_8_AUGraphInput_s"
+            BlueprintName = "ca_8_AUGraphInput_s"
+            ReferencedContainer = "container:ca_8_AUGraphInput_s.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>

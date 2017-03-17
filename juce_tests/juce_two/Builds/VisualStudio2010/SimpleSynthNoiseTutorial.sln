@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{07B9CAEE-47F4-341C-A12C-B5E00D1929AD}") = "SimpleSynthNoiseTutorial", "SimpleSynthNoiseTutorial.vcxproj", "{0D20B4E4-90FE-15AC-0835-EBA54B77C077}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D20B4E4-90FE-15AC-0835-EBA54B77C077}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0D20B4E4-90FE-15AC-0835-EBA54B77C077}.Debug|Win32.Build.0 = Debug|Win32
+		{0D20B4E4-90FE-15AC-0835-EBA54B77C077}.Release|Win32.ActiveCfg = Release|Win32
+		{0D20B4E4-90FE-15AC-0835-EBA54B77C077}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

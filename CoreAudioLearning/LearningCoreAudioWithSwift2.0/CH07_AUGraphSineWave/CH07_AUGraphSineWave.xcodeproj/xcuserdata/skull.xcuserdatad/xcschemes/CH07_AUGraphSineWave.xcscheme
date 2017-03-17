@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2B6D15921B9F42CE001E1408"
+               BuildableName = "CH07_AUGraphSineWave"
+               BlueprintName = "CH07_AUGraphSineWave"
+               ReferencedContainer = "container:CH07_AUGraphSineWave.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2B6D15921B9F42CE001E1408"
+            BuildableName = "CH07_AUGraphSineWave"
+            BlueprintName = "CH07_AUGraphSineWave"
+            ReferencedContainer = "container:CH07_AUGraphSineWave.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>
